@@ -1,0 +1,25 @@
+{
+    "news":
+    [
+        {
+            "index":1,
+            "tom_gon":"Sinh viên đi học trễ quá nhiều",
+            "hinh_tom_gon":"",
+            "trang_thai":"",
+            "tieu_de":"",
+            "ngay":"02/06/2017",
+            "noi_dung_chinh":"",
+            "nguoi_viet":"Võ Huỳnh Thiên Phúc"
+        },
+        {
+            "index":2,
+            "tom_gon":"Sinh viên đánh nhau trên giảng đường",
+            "hinh_tom_gon":"",
+            "trang_thai":"",
+            "tieu_de":"",
+            "ngay":"01/06/2017",
+            "noi_dung_chinh":"",
+            "nguoi_viet":"Võ Huỳnh Thiên Phúc"
+        }
+    ]
+}

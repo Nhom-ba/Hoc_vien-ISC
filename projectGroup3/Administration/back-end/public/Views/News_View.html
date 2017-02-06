@@ -1,4 +1,4 @@
-        <div class="col-xs-9 col-xs-offset-3 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="col-xs-9 col-xs-offset-3 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" ng-controller = "News_Control">
           <h1 class="page-header">Tin tức</h1>
             
             <button class="btn btn-primary pull-right" type="submit">Chỉnh sửa thông tin</button>
@@ -18,55 +18,15 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                  <td>...</td>
-                  <td>...</td>
-                  <td>...</td>
-                </tr>
-                <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                  <td>...</td>
-                  <td>...</td>
-                  <td>...</td>
-                </tr>
-               <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                  <td>...</td>
-                  <td>...</td>
-                  <td>...</td>
-                </tr>
-                <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                  <td>...</td>
-                  <td>...</td>
-                  <td>...</td>
-                </tr>
-                <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                  <td>...</td>
-                  <td>...</td>
-                  <td>...</td>
+                <tr ng-repeat="x in news">
+                  <td>{{x.index}}</td>
+                  <td>{{x.tom_gon}}</td>
+                  <td>{{x.hinh_tom_gon}}</td>
+                  <td>{{x.trng_thai}}</td>
+                  <td>{{x.trang_thai}}</td>
+                  <td>{{x.tieu_de}}</td>
+                  <td>{{x.ngay}}</td>
+                  <td>{{x.nguoi_viet}}</td>
                 </tr>
               </tbody>
             </table>
