@@ -1,0 +1,22 @@
+{
+    "banners":
+    [
+        {
+           	 		"Index":1,
+			"Banner_ID":"img01",
+			"Title":"Du hoc Phap",
+			"Url":"img/11_1200x450__du-hoc-phap.jpg",
+			"img":"11_1200x450__du-hoc-phap.jpg",
+			"Content":""
+        },
+        {
+            			"Index":2,
+			"Banner_ID":"img02",
+			"Title":"Tuyen sinh",
+			"Url":"img/15_tuyen-sinh-mua-xuan-01.jpg",
+			"img":"15_tuyen-sinh-mua-xuan-01.jpg",
+			"Content":""
+        }
+    ]
+    
+}

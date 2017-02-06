@@ -1,4 +1,4 @@
-<div class="col-xs-9 col-xs-offset-3 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+<div class="col-xs-9 col-xs-offset-3 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" ng-controller="Banner_Control">
           <h1 class="page-header">Banner</h1>
             
             <button class="btn btn-primary pull-right" type="submit">Chỉnh sửa thông tin</button>
@@ -15,47 +15,15 @@
                   <th>Content</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                  <td>...</td>
+              <tbody >
+                <tr ng-repeat ="x in banners">
+                  <td>{{x.Index}}</td>
+                  <td>{{x.Banner_ID}}</td>
+                  <td>{{x.Title}}</td>
+                  <td>{{x.Url}}</td>
+                  <td>{{x.img}}</td>
+                  <td>{{x.Content}}</td>  
                 </tr>
-                <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
-                  <td>...</td>
-                </tr> 
-                <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
-                  <td>...</td>
-                </tr> 
-                <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
-                  <td>...</td>
-                </tr> 
-                <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
-                  <td>...</td>
-                </tr> 
               </tbody>
             </table>
           </div>
